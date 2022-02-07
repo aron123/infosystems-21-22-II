@@ -1,5 +1,7 @@
 # Informatikai rendszerek építése (2021/22. II. félév)
 
+- [Tanszéki weboldal](http://ait2.iit.uni-miskolc.hu/oktatas/doku.php?id=tanszek:oktatas:informatikai_rendszerek_epitese:informatikai_rendszerek_epitese)
+
 ## 1. hét
 Szoftveres követelmények ismertetése, telepítése, ismerkedés az Angular keretrendszerrel.
 
