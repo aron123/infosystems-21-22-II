@@ -12,7 +12,10 @@ Szoftveres követelmények ismertetése, telepítése, ismerkedés az Angular ke
 ## 2. hét
 Node Package Manager használata. Bootstrap telepítése, grid rendszer. Sztring interpoláció és strukturális direktívák (`*ngIf`, `*ngFor`) az Angular keretrendszerben.
 
+Adatok:
 - [Jelentkezők listája](https://github.com/aron123/infrend-2022/blob/master/_data/applicants.ts)
+
+Dokumentációk, egyéb anyagok:
 - [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 - [Emmet abbreviations](https://docs.emmet.io/abbreviations/syntax/) (+[Emmet in VSCode](https://code.visualstudio.com/docs/editor/emmet))
 
