@@ -6,7 +6,7 @@
     - A VSCode megnyitása után nyomjuk le a `Ctrl+Shift+P` billentyűkombinációt, az ablak tetején megjelenik az ún. „Command Palette”.
     
     - Gépeljük be az `open settings` keresőszót, majd válasszuk a „Preferences: Open Settings (JSON)” lehetőséget.
-    ![VSCode Command Palette - Open Settings](_imgs/vscode-command-palette.png)
+    ![VSCode Command Palette - Open Settings](assets/images/vscode-command-palette.png)
     
     - Az így megnyitott JSON objektum egy tetszőleges pontjára másoljuk be az alábbiakat, majd mentsük el a fájlt:
         ```json
@@ -15,7 +15,7 @@
             "PATH": "${env:PATH};${env:APPDATA}\\npm"
         },
         ```
-    ![VSCode settings.json](_imgs/vscode-settings-json.png)
+    ![VSCode settings.json](assets/images/vscode-settings-json.png)
 
     - Az ablak tetején látható „Terminal” menüben válasszuk a „New Terminal” lehetőséget, majd futtassuk az alábbi parancsot, ellenőrizve a beállítás sikerességét:
         ```
