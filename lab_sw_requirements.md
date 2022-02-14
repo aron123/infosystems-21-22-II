@@ -15,7 +15,7 @@
             "PATH": "${env:PATH};${env:APPDATA}\\npm"
         },
         ```
-    ![VSCode settings.json](assets/images/vscode-settings-json.png)
+        ![VSCode settings.json](assets/images/vscode-settings-json.png)
 
     - Az ablak tetején látható „Terminal” menüben válasszuk a „New Terminal” lehetőséget, majd futtassuk az alábbi parancsot, ellenőrizve a beállítás sikerességét:
         ```
