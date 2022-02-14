@@ -6,6 +6,7 @@
 Szoftveres követelmények ismertetése, telepítése, ismerkedés az Angular keretrendszerrel.
 
 - [Szoftverkövetelmények](sw_requirements.md)
+- [Laborgépeken szükséges beállítások](lab_sw_requirements.md)
 - [What is Angular?](https://angular.io/guide/what-is-angular)
 - [Getting started with Angular](https://angular.io/start)
 
