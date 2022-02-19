@@ -16,6 +16,9 @@ Node Package Manager használata. Bootstrap telepítése, grid rendszer. Sztring
 Adatok:
 - [Jelentkezők listája](https://github.com/aron123/infrend-2022/blob/master/_data/applicants.ts)
 
+Forráskódok:
+- [Állásjelentkezések nyilvántartása](https://github.com/aron123/infrend-2022/tree/master/job-application)
+
 Dokumentációk, egyéb anyagok:
 - [TypeScript Playground](https://www.typescriptlang.org/play)
 - [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
