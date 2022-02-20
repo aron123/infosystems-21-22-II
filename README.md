@@ -24,6 +24,16 @@ Dokumentációk, egyéb anyagok:
 - [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 - [Emmet abbreviations](https://docs.emmet.io/abbreviations/syntax/) (+[Emmet in VSCode](https://code.visualstudio.com/docs/editor/emmet))
 
+## 3. hét
+Angular komponensek létrehozása (`ng generate`), komponensek közötti együttműködés (`@Input` és `@Output` dekorátorok, `EventEmitter` osztály használata).
+
+- [Komponensek együttműködése - feladatok](component-interaction.md)
+
+Dokumentációk, egyéb anyagok:
+- [Angular Components Overview](https://angular.io/guide/component-overview)
+- [Sharing data between child and parent components](https://angular.io/guide/inputs-outputs)
+- [Semantic Versioning 2.0.0](https://semver.org/)
+
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
 ME-GÉIK Informatikai Intézet
