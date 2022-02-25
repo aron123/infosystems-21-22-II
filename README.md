@@ -1,6 +1,7 @@
 # Informatikai rendszerek építése (2021/22. II. félév)
 
 - [Tanszéki weboldal](http://ait2.iit.uni-miskolc.hu/oktatas/doku.php?id=tanszek:oktatas:informatikai_rendszerek_epitese:informatikai_rendszerek_epitese)
+- [BProf gyakorlat](bprof.md)
 
 ## 1. hét
 Szoftveres követelmények ismertetése, telepítése, ismerkedés az Angular keretrendszerrel.
@@ -27,12 +28,17 @@ Dokumentációk, egyéb anyagok:
 ## 3. hét
 Angular komponensek létrehozása (`ng generate`), komponensek közötti együttműködés (`@Input` és `@Output` dekorátorok, `EventEmitter` osztály használata).
 
+Forráskódok, tananyagok:
 - [Komponensek együttműködése - feladatok](component-interaction.md)
+  - [Szavazó felület](https://github.com/aron123/infrend-2022/tree/master/voting)
 
 Dokumentációk, egyéb anyagok:
 - [Angular Components Overview](https://angular.io/guide/component-overview)
 - [Sharing data between child and parent components](https://angular.io/guide/inputs-outputs)
 - [Semantic Versioning 2.0.0](https://semver.org/)
+
+## 4. hét
+Angular komponensek további gyakorlása (lásd 3. hét).
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
