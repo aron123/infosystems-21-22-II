@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-md-12">
+        <h4>{{ question }}</h4>
+    </div>
+    <div class="col-md-12">
+        <p>Agree: {{ agreed }}, Disagree: {{ disagreed }}</p>
+    </div>
+</div>
+<div class="row mt-2" *ngFor="let voter of voters">
+    <app-ballot [voter]="voter" (voted)="handleVote($event)"></app-ballot>
+</div>
