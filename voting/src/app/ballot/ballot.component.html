@@ -5,12 +5,12 @@
 </div>
 <div class="row">
     <div class="col-md-6 text-center">
-        <button class="btn btn-sm btn-success" (click)="onVote(true)" [disabled]="voter.voted">
+        <button class="btn btn-sm btn-success" (click)="agreed()" [disabled]="didVote">
             Agree
         </button>
     </div>
     <div class="col-md-6 text-center">
-        <button class="btn btn-sm btn-danger" (click)="onVote(false)" [disabled]="voter.voted">
+        <button class="btn btn-sm btn-danger" (click)="disagreed()" [disabled]="didVote">
             Disagree
         </button>
     </div>

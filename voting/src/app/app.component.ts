@@ -9,8 +9,8 @@ import { Person } from './person';
 export class AppComponent {
   question = 'Should mankind colonize the Universe?';
   people: Person[] = [
-    { name: 'Mr. IQ', voted: false },
-    { name: 'Ms. Universe', voted: false },
-    { name: 'Bombasto', voted: false }
+    { name: 'Mr. IQ' },
+    { name: 'Ms. Universe' },
+    { name: 'Bombasto' }
   ];
 }

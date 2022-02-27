@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Person } from '../person';
 
 @Component({
@@ -9,12 +9,18 @@ import { Person } from '../person';
 export class BallotComponent {
 
   @Input() voter!: Person;
-  @Output() voted = new EventEmitter<boolean>();
+  didVote: boolean = false;
+  @Output() onVote = new EventEmitter<boolean>();
 
   constructor() { }
 
-  onVote(agreed: boolean) {
-    this.voter.voted = true;
-    this.voted.emit(agreed);
+  agreed() {
+    this.onVote.emit(true);
+    this.didVote = true;
+  }
+
+  disagreed() {
+    this.onVote.emit(false);
+    this.didVote = true;
   }
 }

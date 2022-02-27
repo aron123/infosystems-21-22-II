@@ -7,5 +7,5 @@
     </div>
 </div>
 <div class="row mt-2" *ngFor="let voter of voters">
-    <app-ballot [voter]="voter" (voted)="handleVote($event)"></app-ballot>
+    <app-ballot [voter]="voter" (onVote)="handleVote($event)"></app-ballot>
 </div>
