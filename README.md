@@ -31,6 +31,7 @@ Angular komponensek létrehozása (`ng generate`), komponensek közötti együtt
 Forráskódok, tananyagok:
 - [Komponensek együttműködése - feladatok](component-interaction.md)
   - [Szavazó felület](https://github.com/aron123/infrend-2022/tree/master/voting)
+  - [Szemantikus verziószámozás](https://github.com/aron123/infrend-2022/tree/master/semver)
 
 Dokumentációk, egyéb anyagok:
 - [Angular Components Overview](https://angular.io/guide/component-overview)

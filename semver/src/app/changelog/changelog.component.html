@@ -1,0 +1,8 @@
+<div class="col-md-12">
+    <h5>Changelog:</h5>
+    <ul>
+        <li *ngFor="let change of changelog">
+            {{ change.type }} version incremented from {{ change.oldValue }} to {{ change.newValue }}
+        </li>
+    </ul>
+</div>
