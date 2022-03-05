@@ -51,8 +51,9 @@ Forráskódok, tananyagok:
 
 Dokumentációk, egyéb anyagok:
 - [DummyJSON](https://dummyjson.com/) (Fake JSON API komplexebb adatstruktúrával)
-- [Angular Lifecycle Hooks](https://codecraft.tv/courses/angular/components/lifecycle-hooks/)
 - [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+- [Routing in SPAs](https://dev.to/marcomonsanto/routing-in-spas-173i)
+- [Common Routing Tasks in Angular](https://angular.io/guide/router)
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
