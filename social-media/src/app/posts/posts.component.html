@@ -9,7 +9,9 @@
                 </div>
                 <h5 class="card-title">{{ post.title }}</h5>
                 <p class="card-text">{{ post.body }}</p>
-                <a class="link-primary" (click)="loadComments(i)" *ngIf="!post.comments">Load comments ...</a>
+                <a class="link-primary cursor-pointer" (click)="loadComments(i)" *ngIf="!post.comments">
+                    Load comments...
+                </a>
                 <div *ngIf="post.comments">
                     <ul class="list-group">
                         <li class="list-group-item" *ngFor="let comment of post.comments">
