@@ -21,3 +21,20 @@ Követelmények:
 - legyen szavazási lehetőség (lehet többször is szavazni),
 - az eredmény viccenként és összesítve is jelenjen meg,
 - a legalább +50-es eredményt elért vicceknél jelenjen meg a "Community Approved" jelvény.
+
+## 5-6. hét
+Alkalmazás készítése a GitHub API felhasználásával. 
+
+Elkészítendő lapok:
+- **Felhasználó keresés lap**: Be lehet írni a keresett felhasználó nevét, egy "Keresés" gombra kattintva megjelennek a GitHub API-tól kapott találatok.
+- **Felhasználói adatlap**: A keresés során megtalált felhasználóknak meg lehet nyitni az adatlapját, ahol megjelenik néhány alap adatuk, és a rendszerben szereplő repository-jaik.
+- **Repository keresés lap**: Be lehet írni a keresett repository nevét, egy "Keresés" gombra kattintva megjelennek a GitHub API-tól kapott találatok.
+- **Repository adatlap**: A keresés során megtalált repository-knak meg lehet nyitni az adatlapját, ahol megjelenik néhány alapadatuk.
+
+Referencia dokumentáció:
+- [Reference Overview](https://docs.github.com/en/rest/reference)
+- [Search repositories](https://docs.github.com/en/rest/reference/search#search-repositories)
+- [Get a repository](https://docs.github.com/en/rest/reference/repos#get-a-repository)
+- [Search users](https://docs.github.com/en/rest/reference/search#search-users)
+- [Get a user](https://docs.github.com/en/rest/reference/users#get-a-user)
+- [List repositories for a user](https://docs.github.com/en/rest/reference/repos#list-repositories-for-a-user)
