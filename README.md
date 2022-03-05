@@ -47,10 +47,10 @@ HTTP kérések kezelése Angular-ban. Aszinkron végrehajtás JavaScript-ben. Az
 Forráskódok, tananyagok:
 - [HTTP protokoll](http.md)
 - [Aszinkron végrehajtás](asyncronicity.md)
-- [DummyJSON](https://dummyjson.com/) (Fake JSON API)
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) (Fake JSON API)
 
 Dokumentációk, egyéb anyagok:
-- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) (Fake JSON API egyszerűbb adatstruktúrával)
+- [DummyJSON](https://dummyjson.com/) (Fake JSON API komplexebb adatstruktúrával)
 - [Angular Lifecycle Hooks](https://codecraft.tv/courses/angular/components/lifecycle-hooks/)
 - [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 
