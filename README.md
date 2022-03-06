@@ -48,7 +48,7 @@ Forráskódok, tananyagok:
 - [HTTP protokoll](http.md)
 - [Aszinkron végrehajtás](asyncronicity.md)
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) (Fake JSON API)
-- [Közösségi oldal példa](dists/social-media/index.html)
+- [Közösségi oldal példa](https://aron123.github.io/infrend-2022/dists/social-media/)
 
 Dokumentációk, egyéb anyagok:
 - [DummyJSON](https://dummyjson.com/) (Fake JSON API komplexebb adatstruktúrával)
