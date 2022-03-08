@@ -14,7 +14,7 @@ export class UserService {
     return lastValueFrom(this.http.get<User[]>('https://jsonplaceholder.typicode.com/users/'));
   }
 
-  getUser(id: number) {
-    return lastValueFrom(this.http.get<User[]>(`https://jsonplaceholder.typicode.com/users/${id}`));
+  getUser(id: number|string) {
+    return lastValueFrom(this.http.get<User>(`https://jsonplaceholder.typicode.com/users/${id}`));
   }
 }

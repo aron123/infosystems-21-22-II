@@ -19,6 +19,6 @@ export class UserListComponent implements OnInit {
   }
 
   async navigateToPosts(userId: number) {
-    this.router.navigate([ 'posts', 'user', userId ]);
+    this.router.navigate([ 'users', userId, 'posts' ]);
   }
 }

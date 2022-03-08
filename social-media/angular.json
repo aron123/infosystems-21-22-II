@@ -17,12 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/social-media",
+            "outputPath": "../dists/social-media",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "baseHref": "/infrend-2022/dists/social-media/",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -35,6 +34,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/infrend-2022/dists/social-media/",
               "budgets": [
                 {
                   "type": "initial",

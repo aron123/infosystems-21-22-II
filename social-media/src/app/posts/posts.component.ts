@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Post } from '../models/post';
 import { PostService } from '../services/post.service';
+import { UserService } from '../services/user.service';
 
 @Component({
   selector: 'app-posts',
@@ -12,15 +13,23 @@ export class PostsComponent implements OnInit {
 
   posts!: Post[];
 
-  constructor(private postService: PostService, private activatedRoute: ActivatedRoute) { }
+  username = '';
+
+  constructor(
+    private postService: PostService,
+    private userService: UserService,
+    private activatedRoute: ActivatedRoute) { }
 
   async ngOnInit() {
     const userId = this.activatedRoute.snapshot.paramMap.get('userId');
     
     if (userId) {
       this.posts = await this.postService.getPostsOfUser(parseInt(userId));
+      const user = await this.userService.getUser(userId);
+      this.username = user.name;
     } else {
       this.posts = await this.postService.getPosts();
+      this.username = 'all users';
     }
   }
 
