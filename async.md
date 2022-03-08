@@ -16,6 +16,8 @@ Egy Promise objektumnak 3 állapota lehet:
 * `fulfilled`: A művelet sikeresen végre lett hajtva.
 * `rejected`: A művelet végrehajtása során hiba keletkezett.
 
+![Promise states](assets/images/promise-states.png)
+
 A Promise használata a következőképpen néz ki:
 
 ``` js
