@@ -16,7 +16,13 @@ Egy Promise objektumnak 3 állapota lehet:
 * `fulfilled`: A művelet sikeresen végre lett hajtva.
 * `rejected`: A művelet végrehajtása során hiba keletkezett.
 
-![Promise states](assets/images/promise-states.png)
+
+<div align="center">
+  <img src="assets/images/promise-states.png" /><br>
+  <p style="font-style: italic">
+    Promise objektum állapotdiagramja <a href="https://javascript.info/promise-basics">[2]</a>
+  </p>
+</div>
 
 A Promise használata a következőképpen néz ki:
 
