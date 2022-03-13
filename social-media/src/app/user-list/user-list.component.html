@@ -1,0 +1,16 @@
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <ul class="list-group">
+            <li class="list-group-item mt-1 mb-1" *ngFor="let user of users">
+                <h5>{{ user.username }} ({{ user.name }})</h5>
+                <p>
+                    {{ user.email }}<br>
+                    {{ user.phone }}
+                </p>
+                <button class="btn btn-primary" (click)="navigateToPosts(user.id)">
+                    See posts
+                </button>
+            </li>
+        </ul>
+    </div>
+</div>
