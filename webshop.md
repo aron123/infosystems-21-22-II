@@ -6,6 +6,7 @@ Webshop alkalmazás terve.
 - `NavComponent`: Megjeleníti a menürendszert.
 - `ProductListComponent`: Betölti a termékeket, és megjeleníti azokat. Megjeleníti a kosár tartalmát is.
 - `ProductComponent`: Megjeleníti egy bemeneti paraméterként kapott termék adatait (a [termékadatbázis](products-database.md) és a lenti screenshot alapján).
+- `CartComponent`: Megjeleníti a kosár tartalmát (egyelőre nem szükséges implementálni, csak meg kell jeleníteni).
 
 ![Webshop komponens diagram](assets/images/webshop-component-diagram.drawio.png)
 
