@@ -47,7 +47,7 @@ HTTP kérések kezelése Angular-ban. Az Angular Router.
 Forráskódok, tananyagok:
 - [HTTP protokoll](http.md)
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) (Fake JSON API)
-- [Közösségi alkalmazás példa](https://aron123.github.io/infrend-2022/dists/social-media/)
+- [Közösségi alkalmazás](https://github.com/aron123/infrend-2022/tree/master/social-media) + [(működő példa)](https://aron123.github.io/infrend-2022/dists/social-media/)
 
 Dokumentációk, egyéb anyagok:
 - [DummyJSON](https://dummyjson.com/) (Fake JSON API komplexebb adatstruktúrával)
@@ -55,11 +55,12 @@ Dokumentációk, egyéb anyagok:
 - [Common Routing Tasks in Angular](https://angular.io/guide/router)
 
 ## 6. hét
-Aszinkron végrehajtás JavaScript-ben. Angular keretrendszer további gyakorlása
+Aszinkron végrehajtás JavaScript-ben. Angular keretrendszer további gyakorlása.
 
 Forráskódok, tananyagok:
 - [Aszinkron végrehajtás](async.md)
 - [Termékadatbázis](products-database.md)
+- [Webshop alkalmazás](webshop.md)
 
 Dokumentációk, egyéb anyagok:
 - [Promise Basics](https://javascript.info/promise-basics) + [async/await](https://javascript.info/async-await)
