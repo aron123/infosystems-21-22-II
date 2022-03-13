@@ -1,8 +1,17 @@
 # Database of products
-
-The `products.json` file contains an array of product objects. `products.sql` contains a MySQL dump with the same data.
+- `products.json` contains an array of product objects. [[Download]](https://raw.githubusercontent.com/aron123/infrend-2022/master/_data/products.json)
+- `products.sql` contains a MySQL dump with the same data. [[Download]](https://github.com/aron123/infrend-2022/blob/master/_data/products.sql)
 
 ## Schema
+- `id`: ID of the product.
+- `title`: Name of the product.
+- `description`: Description of the product (optional, can be `null`).
+- `price`: Price in US dollars.
+- `imgUrl`: URL of the product image (optional, can be `null`).
+- `brand`: Brand name (optional, can be `null`).
+- `categories`: List of categories the product belongs to.
+
+## Data example
 ```json
 {
    "id": "0130350591",
@@ -20,14 +29,6 @@ The `products.json` file contains an array of product objects. `products.sql` co
    ]
 },
 ```
-
-- `id`: ID of the product.
-- `title`: Name of the product.
-- `description`: Description of the product.
-- `price`: Price in US dollars.
-- `imgUrl`: URL of the product image.
-- `brand`: Brand name.
-- `categories`: List of categories the product belongs to.
 
 ## Reference
 J. McAuley, C. Targett, J. Shi, A. van den Hengel: Image-based recommendations on styles and substitutes. SIGIR, 2015.

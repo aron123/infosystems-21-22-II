@@ -42,19 +42,27 @@ Dokumentációk, egyéb anyagok:
 Angular komponensek további gyakorlása (lásd 3. hét).
 
 ## 5. hét
-HTTP kérések kezelése Angular-ban. Aszinkron végrehajtás JavaScript-ben. Az Angular Router.
+HTTP kérések kezelése Angular-ban. Az Angular Router.
 
 Forráskódok, tananyagok:
 - [HTTP protokoll](http.md)
-- [Aszinkron végrehajtás](async.md)
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) (Fake JSON API)
 - [Közösségi alkalmazás példa](https://aron123.github.io/infrend-2022/dists/social-media/)
 
 Dokumentációk, egyéb anyagok:
 - [DummyJSON](https://dummyjson.com/) (Fake JSON API komplexebb adatstruktúrával)
-- [Promise Basics](https://javascript.info/promise-basics) + [async/await](https://javascript.info/async-await)
 - [Routing in SPAs](https://dev.to/marcomonsanto/routing-in-spas-173i)
 - [Common Routing Tasks in Angular](https://angular.io/guide/router)
+
+## 6. hét
+Aszinkron végrehajtás JavaScript-ben. Angular keretrendszer további gyakorlása
+
+Forráskódok, tananyagok:
+- [Aszinkron végrehajtás](async.md)
+- [Termékadatbázis](products-database.md)
+
+Dokumentációk, egyéb anyagok:
+- [Promise Basics](https://javascript.info/promise-basics) + [async/await](https://javascript.info/async-await)
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
