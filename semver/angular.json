@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/semver",
+            "outputPath": "../dists/semver",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -34,6 +34,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/infrend-2022/dists/semver/",
               "budgets": [
                 {
                   "type": "initial",

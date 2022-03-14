@@ -18,7 +18,7 @@ Adatok:
 - [Jelentkezők listája](https://github.com/aron123/infrend-2022/blob/master/_data/applicants.ts)
 
 Forráskódok:
-- [Állásjelentkezések nyilvántartása](https://github.com/aron123/infrend-2022/tree/master/job-application)
+- [Állásjelentkezések nyilvántartása](https://github.com/aron123/infrend-2022/tree/master/job-application) - [[DEMO]](https://aron123.github.io/infrend-2022/dists/job-application/)
 
 Dokumentációk, egyéb anyagok:
 - [TypeScript Playground](https://www.typescriptlang.org/play)
@@ -30,8 +30,8 @@ Angular komponensek létrehozása (`ng generate`), komponensek közötti együtt
 
 Forráskódok, tananyagok:
 - [Komponensek együttműködése - feladatok](component-interaction.md)
-  - [Szavazó felület](https://github.com/aron123/infrend-2022/tree/master/voting)
-  - [Szemantikus verziószámozás](https://github.com/aron123/infrend-2022/tree/master/semver)
+  - [Szavazó felület](https://github.com/aron123/infrend-2022/tree/master/voting) - [[DEMO]](https://aron123.github.io/infrend-2022/dists/voting/)
+  - [Szemantikus verziószámozás](https://github.com/aron123/infrend-2022/tree/master/semver) - [[DEMO]](https://aron123.github.io/infrend-2022/dists/semver/)
 
 Dokumentációk, egyéb anyagok:
 - [Angular Components Overview](https://angular.io/guide/component-overview)
@@ -47,7 +47,7 @@ HTTP kérések kezelése Angular-ban. Az Angular Router.
 Forráskódok, tananyagok:
 - [HTTP protokoll](http.md)
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) (Fake JSON API)
-- [Közösségi alkalmazás](https://github.com/aron123/infrend-2022/tree/master/social-media) + [(működő példa)](https://aron123.github.io/infrend-2022/dists/social-media/)
+- [Közösségi alkalmazás](https://github.com/aron123/infrend-2022/tree/master/social-media) - [[DEMO]](https://aron123.github.io/infrend-2022/dists/social-media/)
 
 Dokumentációk, egyéb anyagok:
 - [DummyJSON](https://dummyjson.com/) (Fake JSON API komplexebb adatstruktúrával)
@@ -57,9 +57,11 @@ Dokumentációk, egyéb anyagok:
 ## 6. hét
 Aszinkron végrehajtás JavaScript-ben. Angular keretrendszer további gyakorlása.
 
+Adatok:
+- [Termékadatbázis](products-database.md)
+
 Forráskódok, tananyagok:
 - [Aszinkron végrehajtás](async.md)
-- [Termékadatbázis](products-database.md)
 - [Webshop alkalmazás](webshop.md)
 
 Dokumentációk, egyéb anyagok:
