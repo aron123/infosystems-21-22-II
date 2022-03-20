@@ -57,15 +57,26 @@ Dokumentációk, egyéb anyagok:
 ## 6. hét
 Aszinkron végrehajtás JavaScript-ben. Angular keretrendszer további gyakorlása.
 
+Forráskódok, tananyagok:
+- [Aszinkron végrehajtás](async.md)
+- előző heti feladat befejezése
+
+Dokumentációk, egyéb anyagok:
+- [Promise Basics](https://javascript.info/promise-basics) + [async/await](https://javascript.info/async-await)
+
+## 7. hét
+HTTP kérések kezelésének gyakorlása, webshop alkalmazás kezdeti felületének kialakítása. Adatbázis-kezelés TypeORM segítségével.
+
 Adatok:
 - [Termékadatbázis](products-database.md)
 
 Forráskódok, tananyagok:
-- [Aszinkron végrehajtás](async.md)
-- [Webshop alkalmazás](webshop.md)
+- [Webshop alkalmazás terve](webshop.md)
+- [TypeORM gyakorlat](http://ait2.iit.uni-miskolc.hu/oktatas/doku.php?id=tanszek:oktatas:informatikai_rendszerek_epitese:type_orm) (Dr. Nehéz Károly anyaga)
 
 Dokumentációk, egyéb anyagok:
-- [Promise Basics](https://javascript.info/promise-basics) + [async/await](https://javascript.info/async-await)
+- [TypeORM dokumentáció](https://typeorm.io/)
+- [UwAmp letöltés](https://www.uwamp.com/file/UwAmp.zip) (hordozható WAMP-szoftvercsomag)
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
