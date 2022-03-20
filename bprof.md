@@ -45,10 +45,10 @@ Referencia dokumentáció:
 ## 7-9. hét
 TODO alkalmazás készítése, TypeORM helyett [Sequelize](https://sequelize.org/v6/index.html) segítségével.
 
-7. hét: Adatszerkezet kialakítása, alapműveletek implementálása (cél: TODO modell osztály és egy service osztály, aminek metódusai a megfelelő adatbázis-műveletek):
+7. hét: Adatszerkezet kialakítása, alapműveletek implementálása (cél: egy TODO modell osztály és egy service osztály, aminek metódusai a megfelelő adatbázis-műveleteket hajtják végre):
    - minden TODO rendelkezik címmel, leírással, határidővel, teljesítettségi állapottal (boolean),
    - el kell készíteni az alapvető CRUD műveleteket (létrehozás, összes rekord olvasása, egy rekord olvasása, módosítás, törlés), továbbá le lehet kérdezni azokat a TODO-kat, amik határideje lejárt, de még nem lettek teljesítve,
-   - néhány [validációs szempont](https://sequelize.org/v6/manual/validations-and-constraints.html) megadása (pl. a cím nem lehet üres, a határidőnek a jövőben kell lennie a létrehozáskor, csak teljesítetlen feladat hozható létre).
+   - néhány [validációs szempontot](https://sequelize.org/v6/manual/validations-and-constraints.html) is meg kell adni (pl. a cím nem lehet üres, a határidőnek a jövőben kell lennie a létrehozáskor, csak teljesítetlen feladat hozható létre).
   
 <!--
 8. hét: Az elkészített műveletekre API-réteg építése: az adatbázis-műveletek HTTP kérésekkel legyenek hívhatóak, megfelelően kezeljék a hibaeseteket is (hibára utaló státuszkód, pontos hibaüzenet a válaszban)!
