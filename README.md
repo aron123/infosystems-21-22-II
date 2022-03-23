@@ -71,6 +71,7 @@ Adatok:
 - [Termékadatbázis](products-database.md)
 
 Forráskódok, tananyagok:
+- [Webshop kezdő projekt](https://github.com/aron123/infrend-2022/tree/master/webshop-sz10)
 - [Webshop alkalmazás terve](webshop.md)
 - [TypeORM gyakorlat](http://ait2.iit.uni-miskolc.hu/oktatas/doku.php?id=tanszek:oktatas:informatikai_rendszerek_epitese:type_orm) (Dr. Nehéz Károly anyaga)
 
