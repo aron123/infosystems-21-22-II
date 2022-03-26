@@ -66,7 +66,7 @@ Dokumentációk, egyéb anyagok:
 - [Promise Basics](https://javascript.info/promise-basics) + [async/await](https://javascript.info/async-await)
 
 ## 7. hét
-HTTP kérések kezelésének gyakorlása, webshop alkalmazás kezdeti felületének kialakítása. Adatbázis-kezelés TypeORM segítségével.
+Adatbázis-kezelés TypeORM segítségével. Webshop alkalmazás kezdeti felületének kialakítása.
 
 Adatok:
 - [Termékadatbázis](products-database.md)
@@ -78,6 +78,18 @@ Forráskódok, tananyagok:
 
 Dokumentációk, egyéb anyagok:
 - [TypeORM dokumentáció](https://typeorm.io/)
+
+## 8. hét
+TypeORM további gyakorlása. HTTP API készítése Express.js segítségével.
+
+Forráskódok, tananyagok:
+- [Szerveroldal bevezetés](backend.md)
+- [Webshop projekt (szerda 8:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz08)
+- [Webshop projekt (szerda 10:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz10)
+
+Dokumentációk, egyéb anyagok:
+- [Express.js Documentation](https://expressjs.com/)
+- [Postman Portable](https://portapps.io/download/postman-portable-win64-9.8.2-52.7z)
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>

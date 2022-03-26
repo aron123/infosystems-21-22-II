@@ -3,8 +3,7 @@
 ## Projekt inicializálása
 ```bash
 npm install -g typescript ts-node ts-node-dev
-mkdir backend
-cd backend
+mkdir backend && cd backend
 npm init
 tsc --init
 npm install express --save
