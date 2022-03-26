@@ -49,11 +49,11 @@ TODO alkalmazás készítése, TypeORM helyett [Sequelize](https://sequelize.org
    - minden TODO rendelkezik címmel, leírással, határidővel, teljesítettségi állapottal (boolean),
    - el kell készíteni az alapvető CRUD műveleteket (létrehozás, összes rekord olvasása, egy rekord olvasása, módosítás, törlés), továbbá le lehet kérdezni azokat a TODO-kat, amik határideje lejárt, de még nem lettek teljesítve,
    - néhány [validációs szempontot](https://sequelize.org/v6/manual/validations-and-constraints.html) is meg kell adni (pl. a cím nem lehet üres, a határidőnek a jövőben kell lennie a létrehozáskor, csak teljesítetlen feladat hozható létre).
-  
-<!--
-8. hét: Az elkészített műveletekre API-réteg építése: az adatbázis-műveletek HTTP kérésekkel legyenek hívhatóak, megfelelően kezeljék a hibaeseteket is (hibára utaló státuszkód, pontos hibaüzenet a válaszban)!
 
-9. hét: Felhasználói felület készítése Angular segítségével:
+8. hét: Az elkészített műveletekre API-réteg építése: az adatbázis-műveletek HTTP kérésekkel legyenek hívhatóak, megfelelően kezeljék a hibaeseteket is (hibára utaló státuszkód, hibaüzenet a válaszban)!
+
+<!--
+1. hét: Felhasználói felület készítése Angular segítségével:
    - 1. lap: TODO-k listázása, létrehozása, módosítása (teljesítettre állítása), törlése.
    - 2. lap: lejárt határidejű, teljesítetlen feladatok listázása.
 -->
