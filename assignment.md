@@ -10,15 +10,15 @@ A feladatkiosztás [ITT érhető el](assignment-list.md).
 A feladat megoldásához a gyakorlatokon bemutatott technológiákat lehet felhasználni.
 
 - Frontend:
-  - Angular 12 vagy 13 keretrendszer, az alkalmazás legyen logikus módon komponensekre bontva
-  - Tetszőleges CSS keretrendszer (pl. Bootstrap, Material, Tailwind CSS),
-  - A lapok között történő navigációhoz a beépített Angular Router legyen alkalmazva.
+  - Angular 12 vagy 13 keretrendszer, az alkalmazás legyen logikus módon komponensekre bontva,
+  - tetszőleges CSS keretrendszer (pl. Bootstrap, Material, Tailwind CSS),
+  - a lapok között történő navigációhoz a beépített Angular Router legyen alkalmazva.
 
 - Backend:
-  - TypeScript programozási nyelv
-  - Express.js szerver
-  - TypeORM
-  - Adatbázis: a következők bármelyike: MySQL, SQLite, Oracle, PostgreSQL (preferált: MySQL vagy SQLite)
+  - TypeScript programozási nyelv,
+  - Express.js szerver,
+  - TypeORM,
+  - Tetszőleges relációs adatbázis (pl. MySQL, SQLite, Oracle, PostgreSQL).
 
 ## Megajánlott jegy
 A szorgalmi időszakban beadott feladatokkal megajánlott jegy szerezhető:
