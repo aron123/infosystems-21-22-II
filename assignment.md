@@ -18,17 +18,17 @@ A feladat megoldásához a gyakorlatokon bemutatott technológiákat lehet felha
   - TypeScript programozási nyelv,
   - Express.js szerver,
   - TypeORM,
-  - Tetszőleges relációs adatbázis (pl. MySQL, SQLite, Oracle, PostgreSQL).
+  - tetszőleges relációs adatbázis (pl. MySQL, SQLite, Oracle, PostgreSQL).
 
 ## Megajánlott jegy
 A szorgalmi időszakban beadott feladatokkal megajánlott jegy szerezhető:
 
 - 4-es megajánlott jegyért a beadandó feladatnak maradéktalanul teljesítenie kell a feladatkiírásban meghatározottakat.
 - 5-ös megajánlott jegyért az alkalmazásnak felhasználókezelést is meg kell valósítania az alábbiak szerint:
-  - az alkalmazás funkcióinak csak bejelentkezés után kell érhetőnek lenniük,
-  - két szerepkört kell kialakítani (adminisztrátor, felhasználó):
-    - az adminisztrátor a rendszer minden funkcióját eléri és új felhasználókat tud hozzáadni,
-    - a felhasználó a rendszer olvasási műveleteit éri csak el.
+  - az alkalmazás funkcióinak csak bejelentkezés után szabad elérhetőnek lenniük,
+  - két szerepkört kell kialakítani (adminisztrátor és felhasználó):
+    - az adminisztrátor a rendszer minden funkcióját eléri és új felhasználókat tud létrehozni,
+    - a felhasználó kizárólag a rendszer olvasási műveleteit éri el.
 
 ## Feladat beadás
 A feladat megoldását a <kiss.aron@uni-miskolc.hu> címre elküldött e-mailben be kell adni és a kijelölt gyakorlatok valamelyikén (előreláthatólag a 12.-13. héten) röviden be kell mutatni, meg kell védeni. 
