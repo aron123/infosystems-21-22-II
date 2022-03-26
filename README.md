@@ -2,6 +2,7 @@
 
 - [Tanszéki weboldal](http://ait2.iit.uni-miskolc.hu/oktatas/doku.php?id=tanszek:oktatas:informatikai_rendszerek_epitese:informatikai_rendszerek_epitese)
 - [BProf gyakorlat](bprof.md)
+- [Beadandó információk](assignment.md)
 
 ## 1. hét
 Szoftveres követelmények ismertetése, telepítése, ismerkedés az Angular keretrendszerrel.
@@ -77,7 +78,6 @@ Forráskódok, tananyagok:
 
 Dokumentációk, egyéb anyagok:
 - [TypeORM dokumentáció](https://typeorm.io/)
-- [UwAmp letöltés](https://www.uwamp.com/file/UwAmp.zip) (hordozható WAMP-szoftvercsomag)
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
