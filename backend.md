@@ -1,6 +1,6 @@
 # Express.js szerver
 
-## Projekt inicializálása
+## Általános projekt inicializálás
 ```bash
 npm install -g typescript ts-node ts-node-dev
 mkdir backend && cd backend
@@ -10,10 +10,27 @@ npm install express --save
 npm install @types/node @types/express --save-dev
 ```
 
-## Szerver indítása
+### Szerver indítása
 ``ts-node-dev index.ts``
 
-## Express middleware-ek
+### Express middleware-ek
 ![Express middlewares](https://static.packt-cdn.com/products/9781849696548/graphics/6548_01_01.jpg)
-
 _(Forrás: [Hage Yaapa - Express Web Application Development](https://www.packtpub.com/product/express-web-application-development/9781849696548))_
+
+## Backend létrehozása a meglévő Angular-projektben
+1. TypeORM globális telepítése:
+   ```bash
+   npm install -g typeorm@0.2.45
+   ```
+2. Projekt függőségek telepítése:
+   ```bash
+   npm install express typeorm@0.2.45 reflect-metadata mysql --save
+   npm install @types/node @types/express ts-node ts-node-dev --save-dev
+   ```
+3. Backend inicializálása:
+   ```bash
+   mkdir backend
+   cd backend
+   typeorm init --database mysql
+   ```
+

@@ -89,7 +89,7 @@ Forráskódok, tananyagok:
 
 Dokumentációk, egyéb anyagok:
 - [Express.js Documentation](https://expressjs.com/)
-- [Postman Portable](https://portapps.io/download/postman-portable-win64-9.8.2-52.7z)
+- [Postman Portable](https://portapps.io/app/postman-portable/#download)
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
