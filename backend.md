@@ -14,7 +14,7 @@ npm install @types/node @types/express --save-dev
 ``ts-node-dev index.ts``
 
 ### Express middleware-ek
-![Express middlewares](https://static.packt-cdn.com/products/9781849696548/graphics/6548_01_01.jpg)
+![Express middlewares](assets/images/express-middleware-stack.jpg)<br>
 _(Forrás: [Hage Yaapa - Express Web Application Development](https://www.packtpub.com/product/express-web-application-development/9781849696548))_
 
 ## Backend létrehozása a meglévő Angular-projektben
