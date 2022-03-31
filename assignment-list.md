@@ -50,3 +50,4 @@
 | T6PXGV | 15. feladat |
 | IHDUW3 | 4. feladat  |
 | NA0U42 | 2. feladat  |
+| DWCPH5 | 5. feladat  |
