@@ -82,7 +82,8 @@ Dokumentációk, egyéb anyagok:
 TypeORM további gyakorlása. HTTP API készítése Express.js segítségével.
 
 Forráskódok, tananyagok:
-- [Szerveroldal bevezetés](backend.md)
+- [Szerver létrehozása, Express alapok](backend.md)
+- [Kezdő backend projekt](https://github.com/aron123/infrend-2022/tree/master/backend)
 - [Webshop projekt (szerda 8:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz08)
 - [Webshop projekt (szerda 10:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz10)
 
