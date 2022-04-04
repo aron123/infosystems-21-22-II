@@ -42,18 +42,22 @@ Referencia dokumentáció:
 - [Get a user](https://docs.github.com/en/rest/reference/users#get-a-user)
 - [List repositories for a user](https://docs.github.com/en/rest/reference/repos#list-repositories-for-a-user)
 
-## 7-9. hét
+## 7. hét
 TODO alkalmazás készítése, TypeORM helyett [Sequelize](https://sequelize.org/v6/index.html) segítségével.
 
-7. hét: Adatszerkezet kialakítása, alapműveletek implementálása (cél: egy TODO modell osztály és egy service osztály, aminek metódusai a megfelelő adatbázis-műveleteket hajtják végre):
+Adatszerkezet kialakítása, alapműveletek implementálása (cél: egy TODO modell osztály és egy service osztály, aminek metódusai a megfelelő adatbázis-műveleteket hajtják végre):
    - minden TODO rendelkezik címmel, leírással, határidővel, teljesítettségi állapottal (boolean),
    - el kell készíteni az alapvető CRUD műveleteket (létrehozás, összes rekord olvasása, egy rekord olvasása, módosítás, törlés), továbbá le lehet kérdezni azokat a TODO-kat, amik határideje lejárt, de még nem lettek teljesítve,
    - néhány [validációs szempontot](https://sequelize.org/v6/manual/validations-and-constraints.html) is meg kell adni (pl. a cím nem lehet üres, a határidőnek a jövőben kell lennie a létrehozáskor, csak teljesítetlen feladat hozható létre).
 
-8. hét: Az elkészített műveletekre API-réteg építése: az adatbázis-műveletek HTTP kérésekkel legyenek hívhatóak, megfelelően kezeljék a hibaeseteket is (hibára utaló státuszkód, hibaüzenet a válaszban)!
+## 8. hét
+TODO alkalmazás folytatása. 
 
-<!--
-1. hét: Felhasználói felület készítése Angular segítségével:
+Az elkészített műveletekre API-réteg építése: az adatbázis-műveletek HTTP kérésekkel legyenek hívhatóak, megfelelően kezeljék a hibaeseteket is (hibára utaló státuszkód, hibaüzenet a válaszban)!
+
+## 9. hét
+TODO alkalmazás folytatása.
+
+Felhasználói felület készítése Angular segítségével:
    - 1. lap: TODO-k listázása, létrehozása, módosítása (teljesítettre állítása), törlése.
-   - 2. lap: lejárt határidejű, teljesítetlen feladatok listázása.
--->
+   - 2. lap: lejárt határidejű, de teljesítetlen feladatok listázása.

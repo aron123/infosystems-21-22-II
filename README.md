@@ -66,7 +66,7 @@ Dokumentációk, egyéb anyagok:
 - [Promise Basics](https://javascript.info/promise-basics) + [async/await](https://javascript.info/async-await)
 
 ## 7. hét
-Adatbázis-kezelés TypeORM segítségével. Webshop alkalmazás kezdeti felületének kialakítása.
+Adatbázis-kezelés TypeORM segítségével. Webshop példa kezdeti felületének kialakítása.
 
 Adatok:
 - [Termékadatbázis](products-database.md)
@@ -79,7 +79,7 @@ Dokumentációk, egyéb anyagok:
 - [TypeORM dokumentáció](https://typeorm.io/)
 
 ## 8. hét
-TypeORM további gyakorlása. HTTP API készítése Express.js segítségével.
+TypeORM további gyakorlása. HTTP API készítése Express.js segítségével. Webshop példa backendjének létrehozása.
 
 Forráskódok, tananyagok:
 - [Szerver létrehozása, Express alapok](backend.md)
@@ -89,6 +89,15 @@ Forráskódok, tananyagok:
 
 Dokumentációk, egyéb anyagok:
 - [Express.js Documentation](https://expressjs.com/)
+
+## 9. hét
+Webshop példa fejlesztése. CRUD műveletek implementálása, karbantartható projekt struktúra kialakítása szerveroldalon. Szerver- és kliensoldal illesztése.
+
+Forráskódok, tananyagok:
+- [Webshop projekt (szerda 8:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz08)
+- [Webshop projekt (szerda 10:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz10)
+
+Dokumentációk, egyéb anyagok:
 - [Postman Portable](https://portapps.io/app/postman-portable/#download)
 
 ## Elérhetőség
