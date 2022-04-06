@@ -1,21 +1,14 @@
 import "reflect-metadata";
-import {createConnection, getRepository} from "typeorm";
+import {createConnection} from "typeorm";
 import * as express from 'express';
-import { User } from "./entity/User";
+import { getRouter } from "./routes";
 
 createConnection().then(async connection => {
     const app = express();
 
-    app.get('/api/users', async (req, res) => {
-        const repository = getRepository(User);
+    app.use(express.json());
 
-        try {
-            const users = await repository.find();
-            res.json(users);
-        } catch (err) {
-            res.status(500).json(err.message);
-        }
-    });
+    app.use(getRouter());
 
     app.listen(3000, () => {
         console.log('Listening on port 3000 ...');
