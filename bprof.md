@@ -59,5 +59,14 @@ Az elkészített műveletekre API-réteg építése: az adatbázis-műveletek HT
 TODO alkalmazás folytatása.
 
 Felhasználói felület készítése Angular segítségével:
-   - 1. lap: TODO-k listázása, létrehozása, módosítása (teljesítettre állítása), törlése.
-   - 2. lap: lejárt határidejű, de teljesítetlen feladatok listázása.
+
+1. lap: TODO-k listázása, létrehozása, módosítása (teljesítettre állítása), törlése.
+2. lap: lejárt határidejű, de teljesítetlen feladatok listázása.
+
+## 10. hét
+TODO alkalmazás folytatása: csoportosítás megvalósítása.
+
+- a TODO-kat csoporthoz lehessen rendelni (pl. munkahelyi, otthoni, egyetemi teendők),
+- a csoportokat a felhasználó adhatja meg,
+- egy TODO csak 1 csoporthoz tartozhat,
+- legyen lehetőség a csoportok listázására és csak az adott csoporthoz tartozó TODO-k megjelenítésére.

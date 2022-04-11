@@ -91,7 +91,7 @@ Dokumentációk, egyéb anyagok:
 - [Express.js Documentation](https://expressjs.com/)
 
 ## 9. hét
-Webshop példa fejlesztése. CRUD műveletek implementálása, karbantartható projekt struktúra kialakítása szerveroldalon. Szerver- és kliensoldal illesztése.
+Webshop példa fejlesztése. CRUD műveletek implementálása, karbantartható projekt struktúra kialakítása szerveroldalon.
 
 Forráskódok, tananyagok:
 - [Webshop projekt (szerda 8:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz08)
@@ -99,6 +99,13 @@ Forráskódok, tananyagok:
 
 Dokumentációk, egyéb anyagok:
 - [Postman Portable](https://portapps.io/app/postman-portable/#download)
+
+## 10. hét
+Webshop példa továbbfejlesztése. Szerver- és kliensoldal illesztése. Reaktív form-ok az Angular-ban.
+
+Forráskódok, tananyagok:
+- [Webshop projekt (szerda 8:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz08)
+- [Webshop projekt (szerda 10:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz10)
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
