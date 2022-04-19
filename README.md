@@ -107,6 +107,13 @@ Forráskódok, tananyagok:
 - [Webshop projekt (szerda 8:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz08)
 - [Webshop projekt (szerda 10:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz10)
 
+## 11. hét
+Webshop példa továbbfejlesztése. Adatfelvitel, hibakezelés kliens- és szerveroldalon. 1:1, 1:N, N:M kapcsolatok TypeORM entitások között.
+
+Forráskódok, tananyagok:
+- [Webshop projekt (szerda 8:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz08)
+- [Webshop projekt (szerda 10:00)](https://github.com/aron123/infrend-2022/tree/master/webshop-sz10)
+
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
 ME-GÉIK Informatikai Intézet

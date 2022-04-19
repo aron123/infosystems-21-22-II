@@ -70,3 +70,6 @@ TODO alkalmazás folytatása: csoportosítás megvalósítása.
 - a csoportokat a felhasználó adhatja meg,
 - egy TODO csak 1 csoporthoz tartozhat,
 - legyen lehetőség a csoportok listázására és csak az adott csoporthoz tartozó TODO-k megjelenítésére.
+
+## 11. hét
+Kiadott feladatok javítása, pótlása.
