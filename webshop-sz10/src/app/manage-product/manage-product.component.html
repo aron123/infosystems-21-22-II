@@ -1,10 +1,20 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-6">
+            <div class="alert alert-success" role="alert" *ngIf="successMessage">
+                {{ successMessage }}
+            </div>
+            <div class="alert alert-danger" role="alert" *ngIf="errorMessage">
+                {{ errorMessage }}
+            </div>
             <form [formGroup]="productForm">
                 <div class="mb-3">
                     <label for="title" class="form-label">Title</label>
                     <input type="text" class="form-control" id="title" formControlName="title">
+                    <div *ngIf="title.invalid && (title.dirty || title.touched)">
+                        <small class="text-danger" *ngIf="title.errors?.['required']">Title is required.</small>
+                        <small class="text-danger" *ngIf="title.errors?.['minlength']">Title's min. length is 5.</small>
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label for="description" class="form-label">Description</label>
@@ -13,14 +23,39 @@
                 <div class="mb-3">
                     <label for="price" class="form-label">Price</label>
                     <input type="number" class="form-control" id="price" formControlName="price">
+                    <div *ngIf="price.invalid && (price.dirty || price.touched)">
+                        <small class="text-danger" *ngIf="price.errors?.['min']">Price minimum is 0.</small>
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label for="imgUrl" class="form-label">Image URL</label>
                     <input type="text" class="form-control" id="imgUrl" formControlName="imgUrl">
+                    <div *ngIf="imgUrl.invalid && (imgUrl.dirty || imgUrl.touched)">
+                        <small class="text-danger" *ngIf="imgUrl.errors?.['pattern']">Image URL have to be a valid
+                            URL.</small>
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label for="brand" class="form-label">Brand</label>
                     <input type="text" class="form-control" id="brand" formControlName="brand">
+                </div>
+                <div class="mb-3">
+                    <label for="uploader" class="form-label">Uploader</label>
+                    <select name="uploader" id="uploader" class="form-select" formControlName="uploader"
+                        [compareWith]="compareUsers">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="{ id: user.id }" *ngFor="let user of users">{{ user.firstName }} {{
+                            user.lastName }}
+                        </option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="categories" class="form-label">Categories</label>
+                    <select name="categories" id="categories" class="form-select" formControlName="categories"
+                        [compareWith]="compareCategories" multiple>
+                        <option [ngValue]="{ id: category.id }" *ngFor="let category of categories">{{ category.title }}
+                        </option>
+                    </select>
                 </div>
                 <div class="text-end">
                     <button class="btn btn-outline-primary" (click)="saveProduct()">Submit</button>

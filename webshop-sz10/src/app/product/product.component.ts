@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Product } from '../models/Product';
 
 @Component({
@@ -10,9 +11,12 @@ export class ProductComponent implements OnInit {
 
   @Input() product!: Product;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  navigateToProductForm(id: number) {
+    this.router.navigate([ 'product-form', id ]);
+  }
 }

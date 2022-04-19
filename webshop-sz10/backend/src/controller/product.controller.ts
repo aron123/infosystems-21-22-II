@@ -10,7 +10,9 @@ export class ProductController extends Controller {
 
         try {
            const products = await this.repository.createQueryBuilder('product')
-                .where("title LIKE CONCAT('%', :param ,'%')", { param: query })
+                .where("product.title LIKE CONCAT('%', :param ,'%')", { param: query })
+                .leftJoinAndSelect('product.categories', 'category')
+                .leftJoinAndSelect('product.uploader', 'uploader')
                 .getMany();
             res.json(products);
         } catch (err) {
