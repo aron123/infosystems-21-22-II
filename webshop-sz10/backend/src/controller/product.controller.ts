@@ -19,5 +19,4 @@ export class ProductController extends Controller {
             res.status(500).json({ message: err.message });
         }
     };
-
 }

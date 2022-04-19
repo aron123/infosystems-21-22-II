@@ -24,7 +24,8 @@ export function getRouter() {
     router.delete('/api/users/:id', userCtrl.delete);
 
     router.get('/api/categories', categoryCtrl.getAll);
-    router.get('/api/cetegories/:id', categoryCtrl.getOne);
+    router.get('/api/categories/stats', categoryCtrl.stats);
+    router.get('/api/categories/:id', categoryCtrl.getOne);
     router.post('/api/categories', categoryCtrl.create);
     router.put('/api/categories', categoryCtrl.update);
     router.delete('/api/categories/:id', categoryCtrl.delete);
