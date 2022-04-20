@@ -1,3 +1,6 @@
+import { Category } from "./Category";
+import { User } from "./User";
+
 export interface Product {
     id: string;
     title: string;
@@ -5,5 +8,6 @@ export interface Product {
     price: number;
     imgUrl: string;
     brand: string | null;
-    categories: string[];
+    uploader: User;
+    categories: Category[];
 }

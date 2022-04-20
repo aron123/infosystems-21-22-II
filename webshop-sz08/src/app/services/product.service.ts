@@ -14,6 +14,10 @@ export class ProductService {
     return lastValueFrom(this.http.get<Product[]>('/api/products'));
   }
 
+  getProduct(id: number) {
+    return lastValueFrom(this.http.get<Product>(`/api/products/${id}`));
+  }
+
   searchProducts(query: string) {
     return lastValueFrom(this.http.get<Product[]>('/api/products/search', {
       params: {
@@ -24,5 +28,9 @@ export class ProductService {
 
   createProduct(product: Product) {
     return lastValueFrom(this.http.post<Product>('/api/products', product));
+  }
+
+  updateProduct(product: Product) {
+    return lastValueFrom(this.http.put<Product>('/api/products', product));
   }
 }

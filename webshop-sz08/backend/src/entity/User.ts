@@ -1,4 +1,5 @@
-import {Entity, PrimaryGeneratedColumn, Column, Unique} from "typeorm";
+import {Entity, PrimaryGeneratedColumn, Column, Unique, OneToMany} from "typeorm";
+import { Product } from "./Product";
 
 @Entity()
 @Unique(['email'])
@@ -21,4 +22,7 @@ export class User {
 
     @Column()
     phone: string;
+
+    @OneToMany(type => Product, product => product.uploader)
+    products: Product[];
 }

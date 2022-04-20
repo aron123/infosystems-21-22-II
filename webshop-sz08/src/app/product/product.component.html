@@ -1,9 +1,20 @@
-<div class="row">
+<div class="row mb-5">
     <div class="col-md-3">
         <img [src]="product.imgUrl" class="product-img">
     </div>
     <div class="col-md-9">
         <h5>{{ product.title }} <span class="badge bg-success">{{ product.price }} $</span></h5>
+        <div>
+            <button class="btn btn-sm btn-outline-success" (click)="goToProductForm(product.id)">Edit</button>
+        </div>
         <p>{{ product.description }}</p>
+        <p *ngIf="product.uploader">
+            Uploader: {{ product.uploader.firstName }} {{ product.uploader.lastName }}
+        </p>
+        <div>
+            <span class="badge bg-primary ms-1" *ngFor="let category of product.categories">
+                {{ category.title }}
+            </span>
+        </div>
     </div>
 </div>
