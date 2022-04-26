@@ -71,5 +71,8 @@ TODO alkalmazás folytatása: csoportosítás megvalósítása.
 - egy TODO csak 1 csoporthoz tartozhat,
 - legyen lehetőség a csoportok listázására és csak az adott csoporthoz tartozó TODO-k megjelenítésére.
 
-## 11. hét
+## 11-12. hét
 Kiadott feladatok javítása, pótlása.
+
+## 13-14. hét
+Féléves feladat beadás, pótlások, javítások.
