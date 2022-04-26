@@ -9,6 +9,8 @@ import { ProductComponent } from './product/product.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavComponent } from './nav/nav.component';
 import { ManageProductComponent } from './manage-product/manage-product.component';
+import { CartComponent } from './cart/cart.component';
+import { CartItemComponent } from './cart-item/cart-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ManageProductComponent } from './manage-product/manage-product.componen
     ProductListComponent,
     ProductComponent,
     NavComponent,
-    ManageProductComponent
+    ManageProductComponent,
+    CartComponent,
+    CartItemComponent
   ],
   imports: [
     BrowserModule,

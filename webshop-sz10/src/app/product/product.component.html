@@ -6,6 +6,7 @@
         <h4>{{ product.title }} <span class="badge bg-success">{{ product.price }} $</span></h4>
         <div>
             <button class="btn btn-sm btn-outline-success" (click)="navigateToProductForm(product.id)">Edit</button>
+            <button class="ms-1 btn btn-sm btn-outline-primary" (click)="addClicked(product)">Add to cart</button>
         </div>
         <p>{{ product.description }}</p>
         <p *ngIf="product.uploader">Uploaded by {{ product.uploader.firstName }} {{ product.uploader.lastName }} </p>

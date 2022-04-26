@@ -8,6 +8,6 @@ export interface Product {
     price: number;
     imgUrl: string;
     brand: string | null;
-    uploader: User;
+    uploader: User|null;
     categories: Category[];
 }

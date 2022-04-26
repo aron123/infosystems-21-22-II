@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { Product } from '../models/Product';
 
@@ -11,6 +11,8 @@ export class ProductComponent implements OnInit {
 
   @Input() product!: Product;
 
+  @Output() addToCart = new EventEmitter<Product>();
+
   constructor(private router: Router) { }
 
   ngOnInit(): void {
@@ -18,5 +20,9 @@ export class ProductComponent implements OnInit {
 
   navigateToProductForm(id: number) {
     this.router.navigate([ 'product-form', id ]);
+  }
+
+  addClicked(product: Product) {
+    this.addToCart.emit(product);
   }
 }

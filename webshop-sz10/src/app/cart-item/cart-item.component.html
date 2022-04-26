@@ -1,0 +1,10 @@
+<div class="mt-2 mb-2">
+    <h5>{{ cartItem?.product?.title }}</h5>
+    <p>{{ sum }} $</p>
+    <div>
+        Amount:
+        <button class="btn btn-sm btn-outline-danger" (click)="onDecrement()">-</button>
+        {{ cartItem.amount }}
+        <button class="btn btn-sm btn-outline-success" (click)="onIncrement()">+</button>
+    </div>
+</div>

@@ -1,4 +1,5 @@
 import * as express from 'express';
+import { CartController } from './controller/cart.controller';
 import { CategoryController } from './controller/category.controller';
 import { ProductController } from './controller/product.controller';
 import { UserController } from './controller/user.controller';
@@ -9,6 +10,7 @@ export function getRouter() {
     const productCtrl = new ProductController();
     const userCtrl = new UserController();
     const categoryCtrl = new CategoryController();
+    const cartCtrl = new CartController();
 
     router.get('/api/products', productCtrl.getAll);
     router.get('/api/products/search', productCtrl.search);
@@ -29,6 +31,9 @@ export function getRouter() {
     router.post('/api/categories', categoryCtrl.create);
     router.put('/api/categories', categoryCtrl.update);
     router.delete('/api/categories/:id', categoryCtrl.delete);
+
+    router.get('/api/carts', cartCtrl.getAll);
+    router.post('/api/carts', cartCtrl.create);
 
     return router;
 }
