@@ -15,28 +15,15 @@ export class ProductListComponent implements OnInit {
 
   query: string = '';
 
-  @Output() addToCart = new EventEmitter<Product>();
-
-  cart!: Cart;
-
   constructor(private productService: ProductService,
     private cartService: CartService) { }
 
   async ngOnInit() {
     try {
-      this.initializeCart();
       this.products = await this.productService.getProducts();
     } catch (err) {
       console.error(err);
     }
-  }
-
-  initializeCart() {
-    this.cart = {
-      id: null,
-      user: null,
-      cartItems: []
-    };
   }
 
   async search() {
@@ -48,19 +35,7 @@ export class ProductListComponent implements OnInit {
   }
 
   addClicked(product: Product) {
-    this.cart.cartItems.push({
-      amount: 1,
-      product
-    });
-  }
-
-  async saveCart() {
-    try {
-      await this.cartService.createCart(this.cart);
-      console.log('success');
-    } catch (err) {
-      console.error(err);
-    }
+    this.cartService.addProductToCart(product);
   }
 
 }

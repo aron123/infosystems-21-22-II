@@ -1,7 +1,13 @@
 <div class="row">
+    <h5>Cart</h5>
+    <hr>
     <div class="col-md-12" *ngFor="let item of cart.cartItems">
-        <h5>Cart</h5>
-        <hr>
         <app-cart-item [cartItem]="item" (amountChanged)="changeItem($event)"></app-cart-item>
+    </div>
+    <div class="col-md-12">
+        <h5>Cart total: {{ cartTotal }} $</h5>
+    </div>
+    <div class="text-center" *ngIf="cart?.cartItems?.length">
+        <button class="btn btn-outline-success" (click)="saveCart()">Purchase</button>
     </div>
 </div>
