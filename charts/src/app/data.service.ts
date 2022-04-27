@@ -1,9 +1,5 @@
 import { Injectable } from '@angular/core';
-
-interface Data {
-  sensorId: number;
-  mertErtek: number;
-}
+import { Data } from './data.model';
 
 @Injectable({
   providedIn: 'root'
@@ -21,7 +17,7 @@ export class DataService {
   getDatas(): Data[] {
     this.datas.push({
       sensorId: 1,
-      mertErtek: this.randomIntFromInterval(1, 100)
+      measuredValue: this.randomIntFromInterval(1, 100)
     });
     return this.datas;
   }

@@ -68,7 +68,7 @@ export class AppComponent {
     setInterval(() => {
       const datas = this.service.getDatas();
       this.chartOptions.series = [{
-        data: datas.map(data => data.mertErtek)
+        data: datas.map(data => data.measuredValue)
       }]
     }, 1000);
   }
