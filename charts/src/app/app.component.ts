@@ -33,12 +33,7 @@ export class AppComponent {
 
   constructor(private service: DataService) {
     this.chartOptions = {
-      series: [
-        {
-          name: "Mért értékek",
-          data: []
-        }
-      ],
+      series: [],
       chart: {
         height: 350,
         type: "line",
@@ -53,7 +48,7 @@ export class AppComponent {
         curve: "straight"
       },
       title: {
-        text: "Product Trends by Month",
+        text: "Measured values of sensors",
         align: "left"
       },
       grid: {
