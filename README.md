@@ -117,6 +117,15 @@ Forráskódok, tananyagok:
 Dokumentációk, egyéb anyagok:
 - [TypeORM - Relations](https://typeorm.io/relations)
 
+## 12. hét
+Konzultáció a beadandó feladatokkal kapcsolatban.
+
+## 13-14. hét
+Féléves feladatok beadása. Javítások és pótlások.
+
+## Plusz anyagok
+- [Valósidejű diagram készítése ApexCharts-al](https://github.com/aron123/infrend-2022/tree/master/charts)
+
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
 ME-GÉIK Informatikai Intézet
