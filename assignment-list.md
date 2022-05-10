@@ -52,3 +52,4 @@
 | NA0U42 | 2. feladat  |
 | DWCPH5 | 5. feladat  |
 | C00KSI | 14. feladat |
+| CR50H6 | 12. feladat |
