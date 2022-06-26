@@ -124,7 +124,7 @@ Konzultáció a beadandó feladatokkal kapcsolatban.
 Féléves feladatok beadása. Javítások és pótlások.
 
 ## Plusz anyagok
-- [Valósidejű diagram készítése ApexCharts-al](https://github.com/aron123/infrend-2022/tree/master/charts)
+- [Valósidejű diagram készítése ApexCharts-al](https://github.com/aron123/infrend-2022/tree/master/charts) - [[DEMO]](https://aron123.github.io/infrend-2022/dists/charts/)
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
