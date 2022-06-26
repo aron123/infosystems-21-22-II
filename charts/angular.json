@@ -35,6 +35,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/infrend-2022/dists/charts/",
               "budgets": [
                 {
                   "type": "initial",
